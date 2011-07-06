@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="schefesNB" name="domain.PetTest" tests="5" time="5.824" timestamp="2011-07-06T20:16:06">
+  <properties>
+    <property name="java.vendor" value="Sun Microsystems Inc." />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="eclipse.pdebuild.templates" value="/D:/Programme/eclipse/eclipse/plugins/org.eclipse.pde.build_3.6.2.R36x_20110203/templates/" />
+    <property name="sun.management.compiler" value="HotSpot Client Compiler" />
+    <property name="build.prod.dir" value="G:\Eclipse Workspaces\SE2\PetManager\bin\prod" />
+    <property name="os.name" value="Windows 7" />
+    <property name="sun.boot.class.path" value="D:\Programme\Java\jre6\lib\resources.jar;D:\Programme\Java\jre6\lib\rt.jar;D:\Programme\Java\jre6\lib\sunrsasign.jar;D:\Programme\Java\jre6\lib\jsse.jar;D:\Programme\Java\jre6\lib\jce.jar;D:\Programme\Java\jre6\lib\charsets.jar;D:\Programme\Java\jre6\lib\modules\jdk.boot.jar;D:\Programme\Java\jre6\classes" />
+    <property name="sun.desktop" value="windows" />
+    <property name="java.vm.specification.vendor" value="Sun Microsystems Inc." />
+    <property name="ant.home" value="D:\Programme\eclipse\eclipse\plugins\org.apache.ant_1.7.1.v20100518-1145" />
+    <property name="java.runtime.version" value="1.6.0_24-b07" />
+    <property name="user.name" value="schefe" />
+    <property name="build.dir" value="G:\Eclipse Workspaces\SE2\PetManager\bin" />
+    <property name="user.language" value="de" />
+    <property name="test.report.dir" value="G:\Eclipse Workspaces\SE2\PetManager\bin\test-reports" />
+    <property name="sun.boot.library.path" value="D:\Programme\Java\jre6\bin" />
+    <property name="ant.project.name" value="pet-manager" />
+    <property name="java.version" value="1.6.0_24" />
+    <property name="version" value="0.2" />
+    <property name="user.timezone" value="" />
+    <property name="sun.arch.data.model" value="32" />
+    <property name="java.endorsed.dirs" value="D:\Programme\Java\jre6\lib\endorsed" />
+    <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86" />
+    <property name="sun.jnu.encoding" value="Cp1252" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="file.separator" value="\" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="java.class.version" value="50.0" />
+    <property name="user.country" value="CH" />
+    <property name="java.home" value="D:\Programme\Java\jre6" />
+    <property name="dist.dir" value="G:\Eclipse Workspaces\SE2\PetManager\release" />
+    <property name="java.vm.info" value="mixed mode, sharing" />
+    <property name="ant.file" value="G:\Eclipse Workspaces\SE2\PetManager\build.xml" />
+    <property name="os.version" value="6.1" />
+    <property name="path.separator" value=";" />
+    <property name="java.vm.version" value="19.1-b02" />
+    <property name="release" value="pet-manager-0.2" />
+    <property name="vendor.dir" value="G:\Eclipse Workspaces\SE2\PetManager\vendor" />
+    <property name="user.variant" value="" />
+    <property name="ant.library.dir" value="D:\Programme\eclipse\eclipse\plugins\org.apache.ant_1.7.1.v20100518-1145\lib" />
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+    <property name="eclipse.pdebuild.scripts" value="/D:/Programme/eclipse/eclipse/plugins/org.eclipse.pde.build_3.6.2.R36x_20110203/scripts/" />
+    <property name="zip.path" value="G:\Eclipse Workspaces\SE2\PetManager\release\pet-manager-0.2.zip" />
+    <property name="user.home" value="C:\Users\schefe" />
+    <property name="java.specification.vendor" value="Sun Microsystems Inc." />
+    <property name="test.dir" value="G:\Eclipse Workspaces\SE2\PetManager\test" />
+    <property name="java.library.path" value="D:\Programme\eclipse\eclipse;.;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:/Programme/Java/jre6/bin/client;D:/Programme/Java/jre6/bin;D:/Programme/Java/jre6/lib/i386;D:\Programme\watcom\binnt;D:\Programme\watcom\binw;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\Programme\QuickTime\QTSystem\;D:\Programme\cygwin\usr\local\bin;D:\Programme\cygwin\bin;D:\Programme\PostgreSQL\9.0\bin;D:\Programme\TortoiseSVN\bin;D:\Programme\PostgreSQL\9.0\bin;D:\Programme\ruby-1.8.7.7\ruby-1.8.7;D:\Programme\ruby-1.8.7.7\ruby-1.8.7\bin;D:\Programme\Nmap;D:\Programme\eclipse\eclipse;D:\Programme\eclipse\eclipse\configuration\org.eclipse.osgi\bundles\1057\1\.cp" />
+    <property name="java.vendor.url" value="http://java.sun.com/" />
+    <property name="java.vm.vendor" value="Sun Microsystems Inc." />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="java.class.path" value="D:\Programme\eclipse\eclipse\plugins\org.apache.ant_1.7.1.v20100518-1145\lib\ant.jar;D:\Programme\eclipse\eclipse\plugins\org.apache.ant_1.7.1.v20100518-1145\lib\ant-antlr.jar;D:\Programme\eclipse\eclipse\plugins\org.apache.ant_1.7.1.v20100518-1145\lib\ant-apache-bcel.jar;D:\Programme\eclipse\eclipse\plugins\org.apache.ant_1.7.1.v20100518-1145\lib\ant-apache-bsf.jar;D:\Programme\eclipse\eclipse\plugins\org.apache.ant_1.7.1.v20100518-1145\lib\ant-apache-log4j.jar;D:\Programme\eclipse\eclipse\plugins\org.apache.ant_1.7.1.v20100518-1145\lib\ant-apache-oro.jar;D:\Programme\eclipse\eclipse\plugins\org.apache.ant_1.7.1.v20100518-1145\lib\ant-apache-regexp.jar;D:\Programme\eclipse\eclipse\plugins\org.apache.ant_1.7.1.v20100518-1145\lib\ant-apache-resolver.jar;D:\Programme\eclipse\eclipse\plugins\org.apache.ant_1.7.1.v20100518-1145\lib\ant-commons-logging.jar;D:\Programme\eclipse\eclipse\plugins\org.apache.ant_1.7.1.v20100518-1145\lib\ant-commons-net.jar;D:\Programme\eclipse\eclipse\plugins\org.apache.ant_1.7.1.v20100518-1145\lib\ant-jai.jar;D:\Programme\eclipse\eclipse\plugins\org.apache.ant_1.7.1.v20100518-1145\lib\ant-javamail.jar;D:\Programme\eclipse\eclipse\plugins\org.apache.ant_1.7.1.v20100518-1145\lib\ant-jdepend.jar;D:\Programme\eclipse\eclipse\plugins\org.apache.ant_1.7.1.v20100518-1145\lib\ant-jmf.jar;D:\Programme\eclipse\eclipse\plugins\org.apache.ant_1.7.1.v20100518-1145\lib\ant-jsch.jar;D:\Programme\eclipse\eclipse\plugins\org.apache.ant_1.7.1.v20100518-1145\lib\ant-junit.jar;D:\Programme\eclipse\eclipse\plugins\org.apache.ant_1.7.1.v20100518-1145\lib\ant-launcher.jar;D:\Programme\eclipse\eclipse\plugins\org.apache.ant_1.7.1.v20100518-1145\lib\ant-netrexx.jar;D:\Programme\eclipse\eclipse\plugins\org.apache.ant_1.7.1.v20100518-1145\lib\ant-nodeps.jar;D:\Programme\eclipse\eclipse\plugins\org.apache.ant_1.7.1.v20100518-1145\lib\ant-starteam.jar;D:\Programme\eclipse\eclipse\plugins\org.apache.ant_1.7.1.v20100518-1145\lib\ant-stylebook.jar;D:\Programme\eclipse\eclipse\plugins\org.apache.ant_1.7.1.v20100518-1145\lib\ant-swing.jar;D:\Programme\eclipse\eclipse\plugins\org.apache.ant_1.7.1.v20100518-1145\lib\ant-trax.jar;D:\Programme\eclipse\eclipse\plugins\org.apache.ant_1.7.1.v20100518-1145\lib\ant-weblogic.jar;D:\Programme\eclipse\eclipse\configuration\org.eclipse.osgi\bundles\117\1\.cp\lib\remoteAnt.jar;D:\Programme\eclipse\eclipse\configuration\org.eclipse.osgi\bundles\888\1\.cp\lib\antdebug.jar;D:\Programme\eclipse\eclipse\configuration\org.eclipse.osgi\bundles\888\1\.cp\lib\remote.jar;D:\Programme\Java\jdk1.6.0_24\lib\tools.jar;D:\Programme\eclipse\eclipse\plugins\org.eclipse.swt.win32.win32.x86_3.6.2.v3659c.jar" />
+    <property name="ant.version" value="Apache Ant version 1.7.1 compiled on June 27 2008" />
+    <property name="zip.name" value="pet-manager-0.2.zip" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="java.vm.specification.version" value="1.0" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="sun.os.patch.level" value="Service Pack 1" />
+    <property name="eclipse.pdebuild.home" value="/D:/Programme/eclipse/eclipse/plugins/org.eclipse.pde.build_3.6.2.R36x_20110203/./" />
+    <property name="java.io.tmpdir" value="C:\Users\schefe\AppData\Local\Temp\" />
+    <property name="java.vendor.url.bug" value="http://java.sun.com/cgi-bin/bugreport.cgi" />
+    <property name="os.arch" value="x86" />
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+    <property name="jar.path" value="G:\Eclipse Workspaces\SE2\PetManager\release\pet-manager.jar" />
+    <property name="java.ext.dirs" value="D:\Programme\Java\jre6\lib\ext;C:\Windows\Sun\Java\lib\ext" />
+    <property name="user.dir" value="G:\Eclipse Workspaces\SE2\PetManager" />
+    <property name="ant.file.pet-manager" value="G:\Eclipse Workspaces\SE2\PetManager\build.xml" />
+    <property name="build.test.dir" value="G:\Eclipse Workspaces\SE2\PetManager\bin\test" />
+    <property name="line.separator" value="
+" />
+    <property name="java.vm.name" value="Java HotSpot(TM) Client VM" />
+    <property name="basedir" value="G:\Eclipse Workspaces\SE2\PetManager" />
+    <property name="ant.java.version" value="1.6" />
+    <property name="ant.core.lib" value="D:\Programme\eclipse\eclipse\plugins\org.apache.ant_1.7.1.v20100518-1145\lib\ant.jar" />
+    <property name="jar.name" value="pet-manager.jar" />
+    <property name="file.encoding" value="Cp1252" />
+    <property name="java.specification.version" value="1.6" />
+    <property name="src.dir" value="G:\Eclipse Workspaces\SE2\PetManager\src" />
+  </properties>
+  <testcase classname="domain.PetTest" name="implementsEquals" time="0.783" />
+  <testcase classname="domain.PetTest" name="findAll" time="1.404" />
+  <testcase classname="domain.PetTest" name="findByID" time="1.477" />
+  <testcase classname="domain.PetTest" name="petCreation" time="1.321" />
+  <testcase classname="domain.PetTest" name="ownership" time="0.82" />
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

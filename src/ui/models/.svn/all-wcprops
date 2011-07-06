@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/PetManager/!svn/ver/1/PetManager/src/ui/models
+END
+PetsTableModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/PetManager/!svn/ver/1/PetManager/src/ui/models/PetsTableModel.java
+END
+JobListModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/PetManager/!svn/ver/1/PetManager/src/ui/models/JobListModel.java
+END
+PeopleTableModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/PetManager/!svn/ver/1/PetManager/src/ui/models/PeopleTableModel.java
+END
